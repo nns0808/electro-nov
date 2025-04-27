@@ -1,0 +1,134 @@
+/* Tablet-Sized Devices (768px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+      font-size: 2em; 
+      margin-bottom: 1.5em; 
+    }
+  
+    .exp-item {
+      width: 100%;
+      max-width: 80%; 
+      padding: 1em; 
+      }
+    #front_image img {
+        width: 40%;
+        border-radius: 10px;
+      }
+    p {
+      font-size: 1.2em;
+      text-align: justify;
+         }
+    #navbar {
+      flex-direction: raw;
+      font-size: 0.9em;
+      padding: 1em;
+    }     
+  }
+  #projectList ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+  }
+  #about p {
+    font-size: 20px; /* Increase font size (adjust as needed) */
+    line-height: 1.6; /* Improves readability */
+    font-weight: 700; /* Makes the text slightly bolder */
+    text-align: center;
+}
+  
+  /*Devices Larger than Tablet Size (1024px and above) */
+  @media (min-width: 1025px) {
+    h1 {
+      font-size: 2.5em;
+      color: rgb(48, 7, 105); 
+    }
+    #front_image img {
+     border-radius: 10px;
+    }
+    .exp-item {
+      width: 40em;
+      padding: 1.5em;
+      }
+  
+   
+    #navbar {
+      font-size: 1.5em; 
+      gap: 3em; 
+      }
+  }
+
+  /* Mobile-Sized Devices (600px) */
+  @media (max-width: 600px) {
+    body {
+      font-size: 0.8em; 
+      margin: 0; 
+      padding: 0;
+      background-color: rgb(236, 180, 160);
+    }
+  
+    #navbar {
+      flex-direction: column; 
+      font-size: 0.7em;
+      gap: 0.5em; 
+      padding: 0.5em;
+    }
+  
+    #front_image img {
+      width: 40%;
+      border-radius: 10px;
+    }
+  
+    h1 {
+      font-size: 1.2em; 
+      margin-bottom: 0.8em;
+    }
+  
+    section {
+      margin: 5%; 
+      padding: 0.5em;
+      border-radius: 10px;
+    }
+  
+    h2 {
+      font-size: 1em; 
+    }
+  
+    p {
+      font-size: 0.9em; 
+      line-height: 1.4; 
+    }
+  
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none; 
+    }
+  
+    .exp-container {
+      flex-direction: column; 
+      gap: 1em;
+    }
+  
+    .exp-item {
+      width: 100%; 
+      padding: 0.8em;
+    }
+  
+    #connect-links {
+      flex-direction: column; 
+      gap: 1em;
+    }
+  
+    li {
+      padding: 0.5em;
+      text-align: center;
+    }
+  
+    a {
+      font-size: 0.8em; 
+    }
+    .skillsBox {
+      display:block; 
+    }
+  }
+  
