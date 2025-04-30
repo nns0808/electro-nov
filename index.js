@@ -7,7 +7,7 @@ body.appendChild(footer);
 const today = new Date();
 const thisYear = today.getFullYear();
 const copyright = document.createElement("p");
-copyright.innerHTML = `Natalia Novikova &copy; ${thisYear}`;
+copyright.innerHTML = `${thisYear}`;
 footer.appendChild(copyright);
 
 // add skills section

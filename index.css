@@ -237,3 +237,18 @@ body {
     font-weight: 700; /* Makes the text slightly bolder */
     
 }
+
+/* #skills li {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(194, 234, 147);
+  width: 100%;
+  text-align: left;
+  padding: 10px 20px; 
+  
+} */
+.phone-number {
+  float: right;
+  margin-right: 15px;
+  font-weight: bold;
+  }
