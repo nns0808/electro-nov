@@ -13,10 +13,13 @@ footer.appendChild(copyright);
 // add skills section
 const skills = [
   "Heavy Machinery Wiring & Maintenance",
-  " Control Panels & Automation Systems",
+  "Control Panels & Automation Systems",
   "Electrical Safety Inspections & Compliance",
   "Power Distribution & High-Voltage Solutions",
   "Office & Retail Wiring",
+  "EV Charging Stations",
+  "Lighting Fixtures & Equipment",
+  "Hot Tub Electrical Wiring",
   "LED Lighting & Energy Efficiency Upgrades",
   "SPElectrical Panel Upgrades & MaintenanceSS",
   "Backup Generators & Surge Protection",
@@ -103,3 +106,5 @@ fetch("https://api.github.com/users/nns0808/repos")
 .catch((error) => {
   console.error("Fetch error:", error);
   });
+
+ 
