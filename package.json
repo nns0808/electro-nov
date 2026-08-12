@@ -1,0 +1,24 @@
+{
+  "name": "electro-nov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nns0808/electro-nov.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nns0808/electro-nov/issues"
+  },
+  "homepage": "https://github.com/nns0808/electro-nov#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
