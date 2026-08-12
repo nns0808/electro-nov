@@ -254,4 +254,73 @@ body {
   }
 
  
-  
+  #work-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.work-item {
+  text-align: center;
+}
+
+.work-item img {
+  width: 100%;
+  max-width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.work-item h3 {
+  margin-top: 10px;
+}
+
+/* Keep Times New Roman and restore larger text */
+
+#experience .exp-item {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#experience .exp-item h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#experience .exp-item p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* Services */
+#skills .skillsBox li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Consistent font sizes for About, Contact, and Footer */
+
+#about p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+#connect {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#connect p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+footer {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}

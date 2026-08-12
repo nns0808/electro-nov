@@ -1,134 +1,259 @@
-/* Tablet-Sized Devices (768px to 1024px) */
+/* =========================================================
+   TABLET DEVICES
+   601px - 1024px
+   ========================================================= */
+
 @media (min-width: 601px) and (max-width: 1024px) {
-    h1 {
-      font-size: 2em; 
-      margin-bottom: 1.5em; 
-    }
-  
-    .exp-item {
-      width: 100%;
-      max-width: 80%; 
-      padding: 1em; 
-      }
-    #front_image img {
-        width: 40%;
-        border-radius: 10px;
-      }
-    p {
-      font-size: 1.2em;
-      text-align: justify;
-         }
-    #navbar {
-      flex-direction: raw;
-      font-size: 0.9em;
-      padding: 1em;
-    }     
-  }
-  #projectList ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none; 
-  }
-  #about p {
-    font-size: 20px; /* Increase font size (adjust as needed) */
-    line-height: 1.6; /* Improves readability */
-    font-weight: 700; /* Makes the text slightly bolder */
-    text-align: center;
-}
-  
-  /*Devices Larger than Tablet Size (1024px and above) */
-  @media (min-width: 1025px) {
-    h1 {
-      font-size: 2.5em;
-      color: rgb(48, 7, 105); 
-    }
-    #front_image img {
-     border-radius: 10px;
-    }
-    .exp-item {
-      width: 40em;
-      padding: 1.5em;
-      }
-  
-   
-    #navbar {
-      font-size: 1.5em; 
-      gap: 3em; 
-      }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
   }
 
-  /* Mobile-Sized Devices (600px) */
-  @media (max-width: 600px) {
-    body {
-      font-size: 0.8em; 
-      margin: 0; 
-      padding: 0;
-      background-color: rgb(236, 180, 160);
-    }
-  
-    #navbar {
-      flex-direction: column; 
-      font-size: 0.7em;
-      gap: 0.5em; 
-      padding: 0.5em;
-    }
-  
-    #front_image img {
-      width: 40%;
-      border-radius: 10px;
-    }
-  
-    h1 {
-      font-size: 1.2em; 
-      margin-bottom: 0.8em;
-    }
-  
-    section {
-      margin: 5%; 
-      padding: 0.5em;
-      border-radius: 10px;
-    }
-  
-    h2 {
-      font-size: 1em; 
-    }
-  
-    p {
-      font-size: 0.9em; 
-      line-height: 1.4; 
-    }
-  
-    ul {
-      padding: 0;
-      margin: 0;
-      list-style-type: none; 
-    }
-  
-    .exp-container {
-      flex-direction: column; 
-      gap: 1em;
-    }
-  
-    .exp-item {
-      width: 100%; 
-      padding: 0.8em;
-    }
-  
-    #connect-links {
-      flex-direction: column; 
-      gap: 1em;
-    }
-  
-    li {
-      padding: 0.5em;
-      text-align: center;
-    }
-  
-    a {
-      font-size: 0.8em; 
-    }
-    .skillsBox {
-      display:block; 
-    }
+  h2 {
+    font-size: 1.5em;
   }
-  
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  #navbar {
+    flex-direction: row;
+    font-size: 1em;
+    padding: 1em;
+    gap: 1em;
+  }
+
+  .exp-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .exp-item {
+    width: 80%;
+    max-width: 600px;
+    padding: 1em;
+  }
+
+  .exp-item h3 {
+    font-size: 1.3em;
+  }
+
+  .exp-item p {
+    font-size: 1.1em;
+  }
+
+  #front_image img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .skillsBox {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #work-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .work-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+
+/* =========================================================
+   DESKTOP DEVICES
+   1025px and above
+   ========================================================= */
+
+@media (min-width: 1025px) {
+
+  h1 {
+    font-size: 2.5em;
+    color: rgb(48, 7, 105);
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  #navbar {
+    flex-direction: row;
+    font-size: 1.5em;
+    gap: 3em;
+  }
+
+  #front_image img {
+    border-radius: 10px;
+  }
+
+  .exp-item {
+    width: 40em;
+    max-width: 600px;
+    padding: 1.5em;
+  }
+
+  .exp-item h3 {
+    font-size: 1.4em;
+  }
+
+  .exp-item p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+
+  #work-gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .work-item img {
+    width: 100%;
+    max-width: 350px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+
+/* =========================================================
+   MOBILE DEVICES
+   600px and below
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  body {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 180, 160);
+  }
+
+  #navbar {
+    flex-direction: column;
+    font-size: 1em;
+    gap: 0.5em;
+    padding: 0.5em;
+  }
+
+  #front_image img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 0.8em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  section {
+    margin: 5%;
+    padding: 0.5em;
+    border-radius: 10px;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .exp-container {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .exp-item {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.8em;
+    box-sizing: border-box;
+  }
+
+  .exp-item h3 {
+    font-size: 1.2em;
+  }
+
+  .exp-item p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  .exp-headerline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .one-exp-heading {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .date {
+    margin-right: 0;
+  }
+
+  #connect-links {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  li {
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  a {
+    font-size: 1em;
+  }
+
+  .skillsBox {
+    display: block;
+  }
+
+  .skillsBox li {
+    width: 80%;
+    padding: 10px 20px;
+  }
+
+  /* Work illustrations gallery */
+
+  #work-gallery {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .work-item {
+    width: 100%;
+  }
+
+  .work-item img {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .work-item h3 {
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+}
