@@ -324,3 +324,120 @@ footer {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
+
+/* =========================================
+   SERVICE REQUEST PAGE
+   ========================================= */
+
+#service-request {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: rgb(25, 82, 95);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+#service-request h1 {
+  color: rgb(247, 248, 244);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#service-request > p {
+  width: 90%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  margin: 0 auto 30px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: normal;
+}
+
+/* Form layout */
+
+#service-request-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Labels */
+
+#service-request-form label {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Text fields */
+
+#service-request-form input,
+#service-request-form select,
+#service-request-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: rgb(18, 2, 36);
+  background-color: white;
+  border: 2px solid rgb(146, 222, 232);
+  border-radius: 8px;
+}
+
+/* Textarea */
+
+#service-request-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* Highlight fields when selected */
+
+#service-request-form input:focus,
+#service-request-form select:focus,
+#service-request-form textarea:focus {
+  outline: none;
+  border-color: rgb(250, 250, 248);
+  box-shadow: 0 0 5px rgba(218, 248, 66, 0.6);
+}
+
+/* Submit button */
+
+#service-request-form button {
+  margin-top: 20px;
+  padding: 14px 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(18, 2, 36);
+  background-color: rgb(244, 245, 239);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#service-request-form button:hover {
+  opacity: 0.85;
+}
+
+/* Status message */
+
+#request-status {
+  width: 90%;
+  margin: 25px auto 0;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
