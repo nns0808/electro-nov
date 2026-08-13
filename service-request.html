@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Service Request | Electro-Nov</title>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+  <nav>
+    <ul id="navbar">
+
+      <li>
+        <a class="navbarList" href="index.html">Home</a>
+      </li>
+
+      <li>
+        <a class="navbarList" href="index.html#about">About</a>
+      </li>
+
+      <li>
+        <a class="navbarList" href="index.html#experience">
+          Our Expertise
+        </a>
+      </li>
+
+      <li>
+        <a class="navbarList" href="index.html#skills">
+          Services
+        </a>
+      </li>
+
+      <li>
+        <a class="navbarList" href="index.html#work-gallery">
+          Our Work Illustration
+        </a>
+      </li>
+
+      <li>
+        <a class="navbarList" href="service-request.html">
+          Request Service
+        </a>
+      </li>
+
+      <li>
+        <a class="navbarList" href="index.html#connect">
+          Contact
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+
+
+  <main>
+
+    <section id="service-request">
+
+      <h1>Service Request</h1>
+
+      <p>
+        Tell us about the electrical service you need.
+        Please provide as much detail as possible so we can
+        better understand your project.
+      </p>
+
+
+      <form id="service-request-form">
+
+        <label for="customer-name">
+          Your Name
+        </label>
+
+        <input
+          type="text"
+          id="customer-name"
+          name="customerName"
+          required
+        >
+
+
+        <label for="customer-email">
+          Email
+        </label>
+
+        <input
+          type="email"
+          id="customer-email"
+          name="customerEmail"
+          required
+        >
+
+
+        <label for="service">
+          Service Needed
+        </label>
+
+        <select
+          id="service"
+          name="service"
+          required
+        >
+
+          <option value="">
+            Select a service
+          </option>
+
+          <option value="Commercial Electrical Services">
+            Commercial Electrical Services
+          </option>
+
+          <option value="Industrial Electrical Systems">
+            Industrial Electrical Systems
+          </option>
+
+          <option value="Residential Electrical Services">
+            Residential Electrical Services
+          </option>
+
+          <option value="EV Charger">
+            EV Charger
+          </option>
+
+          <option value="Lighting">
+            Lighting
+          </option>
+
+          <option value="Panel">
+            Panel
+          </option>
+
+          <option value="Power Distribution">
+            Power Distribution
+          </option>
+
+          <option value="IoT">
+            IoT
+          </option>
+
+          <option value="SPA">
+            SPA
+          </option>
+
+          <option value="Thermostat">
+            Thermostat
+          </option>
+
+          <option value="VFD">
+            VFD
+          </option>
+
+          <option value="Other">
+            Other
+          </option>
+
+        </select>
+
+
+        <label for="job-description">
+          Describe the Job
+        </label>
+
+        <textarea
+          id="job-description"
+          name="jobDescription"
+          rows="7"
+          required
+          placeholder="Please describe the electrical work you need..."
+        ></textarea>
+
+
+        <button type="submit">
+          Submit Service Request
+        </button>
+
+      </form>
+
+
+      <p id="request-status"></p>
+
+    </section>
+
+  </main>
+
+
+  <script src="service-request.js"></script>
+
+</body>
+
+</html>
